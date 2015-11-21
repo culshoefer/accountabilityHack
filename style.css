@@ -1,14 +1,15 @@
 body {
-    float: left;
     font-family: sans-serif;
-    margin: auto;
     position: relative;
-    width: 960px;
+    height: 100%;
+    margin: 0;
 }
 
 #treemap{
-    left: 5%;
-    top: 10%;
+    /*//    margin: 10%, 10%, 10%, 10%;
+    position: relative;*/
+    min-height: 100%;
+    color: #888888;
 }
 
 .node {
