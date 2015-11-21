@@ -28,7 +28,7 @@ class Output:
 
 
 
-class Topics:
+class Topic:
     """
     Holds the topic as string, and an array with all MPs talking about this topic
 
@@ -76,7 +76,15 @@ class MP:
 #           Test Vars for json Output             #
 #                                                 #                                           
 ###################################################
+mp1 = MP("David Cameron")
+mp1.addParty("Con")
+mp1.addMention("ISIS", "2015-09-29" , "Who cares?")
 
+topic_isis = Topic("ISIS")
+topic_isis.addMP(mp1)
+topic_isis.setMentions(1)
+
+output = Output([topic_isis])
 
 
 
