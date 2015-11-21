@@ -41,7 +41,7 @@ class MP:
     """
     Class holding all mentions the MP did to a specific topic as dict
 
-    Dict mentions = {'Topic topic' : ["URL", "URL" , "URL"]}
+    Dict mentions = {'String topic' : ["URL", "URL" , "URL"]}
     String name
     String party
     """
