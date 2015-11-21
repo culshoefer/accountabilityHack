@@ -1,15 +1,23 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    font-family: sans-serif;
     margin: auto;
     position: relative;
     width: 960px;
 }
 
+#treemap{
+    left: 5%;
+    top: 10%;
+}
+
 .node {
+    float: left;
     border: solid 1px white;
-    font: 10px sans-serif;
-    line-height: 12px;
+    font-size: 2vw;
     overflow: hidden;
     position: absolute;
     text-indent: 2px;
+    text-align: center;
+    vertical-align: middle;
 }

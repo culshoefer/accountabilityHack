@@ -17,26 +17,31 @@ function render() {
         height = 500 - margin.top - margin.bottom;
 
     var color = d3.scale.category10()
-
     var treemap = d3.layout.treemap()
         .size([width, height])
         .sticky(true)
-        .value(function(d) { return d.size; });
+        .value(function value(d){
+	    return d.mentions;
+	});
 
-    var div = d3.select("body").append("div");
+    treemap.children(function children(d, depth){
+	if (depth == 0)
+	    return d.topics;
+    });
+
+    var div = d3.select("#treeDiv").append("div");
 
     d3.json("input.json", function(error, root) {
         // Data join
-        var node = div.datum(tree).selectAll(".node")
+        var node = div.datum(root).selectAll(".node")
             .data(treemap.nodes);
-
 
         // Create new elements as needed
         node.enter().append("div")
             .attr("class", "node")
             .call(position)
-            .style("background-color", function(d) { return d.children ? color(d.name) : null; })
-            .text(function(d) { return d.children ? null : d.name; });
+            .style("background-color", function(d) { return color(d.name);})
+            .text(function(d) { return d.name; });
 
     });
 
