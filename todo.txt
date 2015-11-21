@@ -1,0 +1,5 @@
+1. get synonyms for the word we searched for
+2. then for every synonym get all articles and add them to output[synonym]
+
+think about (regarding synonyms):
+	EU, IS (ISIS, Daesh, Islamic State)
