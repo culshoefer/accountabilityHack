@@ -8,6 +8,44 @@ SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus
 links_to_articles = {}
 
 
+
+class Output:
+    """
+    output data being parsed into a 
+
+    Topics topics[]: an array holding all the topics 
+    """
+
+    def __init__(self, topics):
+        self.topics = topics
+    
+    def sort(self):
+        """
+        sorts the Topic topics[]
+        Topic being mentioned most is at topics[0]
+        """
+        pass
+
+
+class Topics:
+    """
+    Holds the topic as string, and an array with all MPs talking about this topic
+
+    String name 
+    Int mentions
+    MP mps 
+    """
+    pass
+
+class MP:
+    """
+    Class holding all mentions the MP did to a specific topic as dict
+
+    Dict mentions = {'Topic topic' : ["URL", "URL" , "URL"]}
+    """
+    pass
+
+
 def get_synonyms(word):
     synonyms = []
 
