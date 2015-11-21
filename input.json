@@ -3,72 +3,72 @@
     "topics": [
         {"name": "Syria",  "mentions": 350,
             "MPs": [{"name": "David Cameron", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"], 
+                     "links": ["http://aaa.com", "http://bbb.com"]}, 
                      {"name": "Jeremy Corbyn", "party": "Labour",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tim Farron", "party": "LibDem",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tory 1", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tory 2", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]},
                      {"name": "Lab 1", "party": "Labour",
-                     "links": ["http://aaa.com"]}
+                     "links": ["http://aaa.com"]},
                      {"name": "David Cameron's clone", "party": "Conservative",
                      "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
-                     }
+                     ]
         },
         {"name": "Long-term economic plan",  "mentions": 123,
             "MPs": [{"name": "David Cameron", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"], 
+                     "links": ["http://aaa.com", "http://bbb.com"]}, 
                      {"name": "Jeremy Corbyn", "party": "Labour",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tim Farron", "party": "LibDem",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
-                     {"name": "Tory 1, "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
+                     {"name": "Tory 1", "party": "Conservative",
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tory 2", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]},
                      {"name": "Lab 1", "party": "Labour",
-                     "links": ["http://aaa.com"]}
+                     "links": ["http://aaa.com"]},
                      {"name": "David Cameron's clone", "party": "Conservative",
                      "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
-                     }
+                     ]
         },
         {"name": "Peanut butter jelly",  "mentions": 600,
             "MPs": [{"name": "David Cameron", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"], 
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Jeremy Corbyn", "party": "Labour",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
-                     {"name": "Tim Farron", "party": "LibDem",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
-                     {"name": "Tory 1, "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
+                      {"name": "Tim Farron", "party": "LibDem",
+                     "links": ["http://aaa.com", "http://bbb.com"]},
+                     {"name": "Tory 1", "party": "Conservative",
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tory 2", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]},
                      {"name": "Lab 1", "party": "Labour",
-                     "links": ["http://aaa.com"]}
+                     "links": ["http://aaa.com"]},
                      {"name": "Ded", "party": "Conservative",
                      "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
-                     }
+                     ]
         },
         {"name": "Long-term economic plan",  "mentions": 750,
             "MPs": [{"name": "David Cameron", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"], 
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Jeremy Corbyn", "party": "Labour",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tim Farron", "party": "LibDem",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tory 1", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com"]},
                      {"name": "Tory 2", "party": "Conservative",
-                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
+                     "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]},
                      {"name": "Lab 1", "party": "Labour",
-                     "links": ["http://aaa.com"]}
+                     "links": ["http://aaa.com"]},
                      {"name": "David Cameron's clone", "party": "Conservative",
                      "links": ["http://aaa.com", "http://bbb.com", "http://aaa.com", "http://bbb.com"]}
-                     }
-        },
+                     ]
+        }
     ]
 }
 
