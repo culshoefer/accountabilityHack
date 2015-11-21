@@ -5,55 +5,6 @@ import requests
 SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=500&_search={}&_page=0"
 SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus&_pageSize=500&_search=%22{}%22&_page=0&_properties=prefLabel,exactMatch.prefLabel"
 
-links_to_articles = {}
-
-
-class Output:
-
-    """
-    output data being parsed into a
-
-    Topics topics[]: an array holding all the topics
-    """
-
-    def __init__(self, topics):
-        self.topics = topics
-
-    def sort(self):
-        """
-        sorts the Topic topics[]
-        Topic being mentioned most is at topics[0]
-        """
-        pass
-
-
-class Topics:
-
-    """
-    Holds the topic as string and an array all MPs talking about this topic
-
-    String name
-    Int mentions
-    MP mps
-    """
-    pass
-
-
-class MP:
-
-    def __init__(self, member):
-        self.name = member
-        self.topics = {}
-
-    """
-    Class holding all mentions the MP did to a specific topic as dict
-
-    Dict mentions = {'Topic topic' : ["URL", "URL" , "URL"]}
-    String name
-    String party
-    """
-    pass
-
 
 def get_synonyms(word):
     synonyms = []
@@ -63,39 +14,112 @@ def get_synonyms(word):
 
     if response.status_code == 200:
         response_json = json.loads(response.text)
-        # print(response_json)
 
         most_exact = response_json['result']['items'][0]
-        # print('Most exact match:', most_exact)
         for match in most_exact['exactMatch']:
-            # print(match)
             # if the match is not an URL
             if isinstance(match, dict):
                 synonyms.append(match['prefLabel']['_value'])
 
     return synonyms
 
+class Output:
+    def __init__(self):
+        self.topics = []
 
-def search_articles(word, URL):
+    def addTopic(self, topic):
+        self.topics.append(topic)
+
+    def sort(self):
+        """
+        sorts the Topic topics[]
+        Topic being mentioned most is at topics[0]
+        """
+        pass
+
+    def __str__(self):
+        result = ""
+        for topic in self.topics:
+            result = result + str(topic) + "\n"
+        return result
+
+
+class Topic:
+
+    """
+    String name
+    Int mentions
+    MP mps
+    """
+
+    def __init__(self, string, mentions):
+        self.name = string
+        self.mentions = mentions
+        self.mps = []
+
+    def addMP(self, name):
+        self.mps.append(MP(name))
+
+    def __str__(self):
+        return "{}: {}".format(self.name, self.mentions)
+
+    def __repr__(self):
+        return str(self)
+
+
+class MP:
+
+    """
+    Class holding all mentions the MP did to a specific topic as dict
+    Dict mentions = {'String topic' : ["String", "String" , "String"]}
+    String name
+    String party
+    """
+
+    def __init__(self, name):
+        self.name = name
+        self.mentions = {}
+
+    def addParty(self, party):
+        self.party = party
+
+    def addMention(self, topic, date, text):
+        s = date + "#" + text
+        if topic in self.mentions.keys():
+            self.mentions[topic].append(s)
+        else:
+            self.mentions[topic] = [s]
+
+    def __str__(self):
+        return "{} {}".format(self.name, self.mentions)
+
+    def __repr__(self):
+        return str(self)
+
+finalDATA = Output()
+
+
+def search_questions(word):
     """
     Returns a list of articles for the given word.
     """
-    for synonym in get_synonyms(word):
-        print(synonym, end='\t')
 
-        full_query = URL.format(word)
-        response = requests.get(full_query)
+    full_query = SEARCH_ENDPOINT_URL.format(word)
+    response = requests.get(full_query)
 
-        if response.status_code == 200:
-            response_json = json.loads(response.text)
+    if response.status_code == 200:
+        response_json = json.loads(response.text)
+        mentions = response_json["result"]["totalResults"]
 
-            for question in response_json['result']['items']:
-                URL = question["_about"]
+        finalDATA.addTopic(Topic(word, mentions))
 
-                if links_to_articles.get(word):
-                    links_to_articles[word].append(URL)
-                else:
-                    links_to_articles[word] = [URL]
+        for question in response_json['result']['items']:
+            text = question['questionText']
+            dt = question['modified']['_value']
+            author = question['tablingMemberPrinted'][0]['_value']
+
+            finalDATA.topics[-1].addMP(author)
+            finalDATA.topics[-1].mps[-1].addMention(word, dt, text)
 
 
 def search_all():
@@ -103,33 +127,8 @@ def search_all():
         for line in infile:
             word = line.strip()
 
-            print("Searching for:", word)
-            search_articles(word, SEARCH_ENDPOINT_URL)
+            search_questions(word)
+search_all()
 
-
-def get_SYN(word):
-    synonyms = set()
-
-    full_query = SYNONYM_ENDPOINT_URL.format(word)
-    response = requests.get(full_query)
-
-    if response.status_code == 200:
-        response_json = json.loads(response.text)
-
-        most_exact = response_json['result']['items']
-        for match in most_exact:
-            print(match[''])
-
-    return synonyms
-
-
-# print("\n[*]get_synonyms")
-# print(get_SYN("Islamic State"))
-
-# print("\n[*]search_articles")
-# search_articles("Islamic State", SEARCH_ENDPOINT_URL)
-# print(links_to_articles)
-
-# print("\n[*]search_all")
-# search_all()
-# print(links_to_articles)
+for topic in finalDATA.topics:
+    print(topic)
