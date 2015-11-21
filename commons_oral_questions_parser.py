@@ -8,17 +8,17 @@ SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus
 links_to_articles = {}
 
 
-
 class Output:
-    """
-    output data being parsed into a 
 
-    Topics topics[]: an array holding all the topics 
+    """
+    output data being parsed into a
+
+    Topics topics[]: an array holding all the topics
     """
 
     def __init__(self, topics):
         self.topics = topics
-    
+
     def sort(self):
         """
         sorts the Topic topics[]
@@ -28,16 +28,23 @@ class Output:
 
 
 class Topics:
-    """
-    Holds the topic as string, and an array with all MPs talking about this topic
 
-    String name 
+    """
+    Holds the topic as string and an array all MPs talking about this topic
+
+    String name
     Int mentions
-    MP mps 
+    MP mps
     """
     pass
 
+
 class MP:
+
+    def __init__(self, member):
+        self.name = member
+        self.topics = {}
+
     """
     Class holding all mentions the MP did to a specific topic as dict
 
@@ -111,20 +118,17 @@ def get_SYN(word):
 
         most_exact = response_json['result']['items']
         for match in most_exact:
-            # print(match["prefLabel"])
-            # print(match["exactMatch"]["prefLabel"]["_value"])
-            # if isinstance(match.get("exactMatch"), dict):
-            exact_match = match.get("exactMatch")
-            # print(match["prefLabel"]["_value"])
+            print(match[''])
 
     return synonyms
 
+
 # print("\n[*]get_synonyms")
-# print(get_SYN("tax"))
+# print(get_SYN("Islamic State"))
 
 # print("\n[*]search_articles")
-search_articles("Islamic State", SEARCH_ENDPOINT_URL)
-print(links_to_articles)
+# search_articles("Islamic State", SEARCH_ENDPOINT_URL)
+# print(links_to_articles)
 
 # print("\n[*]search_all")
 # search_all()
