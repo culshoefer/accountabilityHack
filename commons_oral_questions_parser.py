@@ -37,13 +37,15 @@ class Topics:
     MP mps 
     """
     def __init__(self, string):
-        pass
+        self.name = string
+        self.mps = []
 
     def addMP(mp):
-        pass
+        self.maps.append(mp)
 
-    def setMentions():
-        pass
+    def setMentions(mentions):
+        self.mentions = mentions
+        
 
 
 class MP:
@@ -57,12 +59,15 @@ class MP:
     def __init__(self, name):
         self.name = name
         self.mentions = {}
+    
     def addParty(self, party):
-        pass
+        self.party = party    
 
-    def addMention(self, topic, string)
-        pass
-
+    def addMention(self, topic, string):
+        if topic in self.mentions.keys():
+            self.mentions[topic].append(string)
+        else
+            self.mentions[topic] = [string]
 
 
 def get_synonyms(word):
