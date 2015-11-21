@@ -24,7 +24,8 @@ class Output:
         sorts the Topic topics[]
         Topic being mentioned most is at topics[0]
         """
-        pass
+
+
 
 
 class Topics:
@@ -35,17 +36,33 @@ class Topics:
     Int mentions
     MP mps 
     """
-    pass
+    def __init__(self, string):
+        pass
+
+    def addMP(mp):
+        pass
+
+    def setMentions():
+        pass
+
 
 class MP:
     """
     Class holding all mentions the MP did to a specific topic as dict
 
-    Dict mentions = {'String topic' : ["URL", "URL" , "URL"]}
+    Dict mentions = {'String topic' : ["String", "String" , "String"]}
     String name
     String party
     """
-    pass
+    def __init__(self, name):
+        self.name = name
+        self.mentions = {}
+    def addParty(self, party):
+        pass
+
+    def addMention(self, topic, string)
+        pass
+
 
 
 def get_synonyms(word):
