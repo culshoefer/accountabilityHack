@@ -63,11 +63,23 @@ class MP:
     def addParty(self, party):
         self.party = party    
 
-    def addMention(self, topic, string):
+    def addMention(self, topic, date, text):
+        s = string(date) + "#" + text
         if topic in self.mentions.keys():
-            self.mentions[topic].append(string)
+            self.mentions[topic].append(s)
         else
-            self.mentions[topic] = [string]
+            self.mentions[topic] = [s]
+
+
+###################################################
+#                                                 # 
+#           Test Vars for json Output             #
+#                                                 #                                           
+###################################################
+
+
+
+
 
 
 def get_synonyms(word):
