@@ -57,6 +57,7 @@ class Output:
 
 
 class Topic:
+
     """
     Holds the topic as string, and an array with all MPs talking about this topic
     String name
@@ -69,10 +70,9 @@ class Topic:
         self.mentions = mentions
         self.mps = []
 
-
     def setMentions(self, mentions):
         self.mentions = mentions
-        
+
     def addMP(self, name):
         self.mps.append(MP(name))
 
@@ -169,56 +169,30 @@ def search_all():
             print("Searching for:", word)
             search_questions(word)
 
-
-def get_SYN(word):
-    synonyms = set()
-
-    full_query = SYNONYM_ENDPOINT_URL.format(word)
-    response = requests.get(full_query)
-
-    if response.status_code == 200:
-        response_json = json.loads(response.text)
-
-        most_exact = response_json['result']['items']
-        for match in most_exact:
-            # print(match["prefLabel"])
-            # print(match["exactMatch"]["prefLabel"]["_value"])
-            # if isinstance(match.get("exactMatch"), dict):
-            exact_match = match.get("exactMatch")
-            # print(match["prefLabel"]["_value"])
-
-    return synonyms
-
-# print("\n[*]get_synonyms")
-# print(get_SYN("tax"))
-
 ###################################################
-#                                                 # 
+#                                                 #
 #           Test Vars for json Output             #
-#                                                 #                                           
+#                                                 #
 ###################################################
 
 mp1 = MP("David Cameron")
 mp1.addParty("Con")
-mp1.addMention("ISIS", "2015-09-29" , "Who cares?")
+mp1.addMention("ISIS", "2015-09-29", "Who cares?")
 
-topic_isis = Topic("ISIS")
+topic_isis = Topic("ISIS", 1)
 topic_isis.addMP(mp1)
-topic_isis.setMentions(1)
 
-output = Output([topic_isis])
+output = Output()
+output.addTopic(topic_isis)
 
-###################################################
-#                                                 # 
-#                 END OF TEST VARS                # 
-#                                                 # 
-###################################################
 createJSON(output)
 
-# print("\n[*]search_articles")
-#search_articles("Islamic State", SEARCH_ENDPOINT_URL)
-#print(links_to_articles)
+###################################################
+#                                                 #
+#                 END OF TEST VARS                #
+#                                                 #
+###################################################
 
-# print("\n[*]search_all")
-# search_all()
-# print(links_to_articles)
+search_all()
+createJSON(finalDATA)
+print(finalDATA)
