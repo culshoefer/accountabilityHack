@@ -1,6 +1,5 @@
 import json
 import requests
-import uuid
 
 # TODO: change for >500 results
 SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=500&_search={}&_page=0"
@@ -126,16 +125,18 @@ def createJSON(out):
     takes Output out and returns a JSON file 
     """
     with open('data.json', 'w') as outfile:
-        json.dump(out, outfile, indent="\t",default=jdefault)
+        json.dump(out, outfile, default=jdefault, indent="\t")
 
 
 def printChildren(path, child, parent, numOfChildren="null"):
-    s = "[" + "{\"v\": " + "\"" + str(path) + "\", " + "\"f\": " + "\"" + str(child) + "\"}, "  + "\"" + str(parent) + "\"," + str(numOfChildren) + "],\n"
+    s = "[" + "{\"v\": " + "\"" + str(path) + "\", " + "\"f\": " + "\"" + str(
+        child) + "\"}, " + "\"" + str(parent) + "\"," + str(numOfChildren) + "],\n"
 
     return s
 
+
 def writeTREE(output):
-    f = open("o.txt" , "w+")
+    f = open("o.txt", "w+")
     f.write("[\"tree\", null, 0],\n")
 
     tree_path = "tree"
@@ -221,4 +222,4 @@ createJSON(output)
 search_all()
 createJSON(finalDATA)
 writeTREE(finalDATA)
-#print(finalDATA)
+# print(finalDATA)
