@@ -3,8 +3,8 @@ import requests
 import uuid
 
 # TODO: change for >500 results
-SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=10&_search={}&_page=0"
-SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus&_pageSize=10&_search=%22{}%22&_page=0&_properties=prefLabel,exactMatch.prefLabel"
+SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=500&_search={}&_page=0"
+SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus&_pageSize=500&_search=%22{}%22&_page=0&_properties=prefLabel,exactMatch.prefLabel"
 
 
 def get_synonyms(word):
@@ -138,17 +138,17 @@ def writeTREE(output):
     f = open("o.txt" , "w+")
     f.write("[\"tree\", null, 0],\n")
 
-    path = "tree"
+    tree_path = "tree"
     for topic in output.topics:
-        path += "/" + topic.name
-        f.write(printChildren(path, topic.name, "tree"))
+        topic_path = tree_path + "/" + topic.name
+        f.write(printChildren(topic_path, topic.name, tree_path))
         for mp in topic.mps:
-            path += "/" + mp.name
-            f.write(printChildren(path, mp.name, topic.name))
+            mp_path = topic_path + "/" + mp.name
+            f.write(printChildren(mp_path, mp.name, topic_path))
             if mp.mentions.get(topic.name):
                 for mention in mp.mentions.get(topic.name):
-                    path += "/" + mention
-                    f.write(printChildren(path, mention, mp.name, "1"))
+                    mention_path = mp_path + "/" + mention
+                    f.write(printChildren(mention_path, mention, mp_path, "1"))
     f.close()
 
 
