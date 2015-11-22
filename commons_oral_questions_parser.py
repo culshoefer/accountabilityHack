@@ -2,8 +2,8 @@ import json
 import requests
 
 # TODO: change for >500 results
-SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=500&_search={}&_page=0"
-SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus&_pageSize=500&_search=%22{}%22&_page=0&_properties=prefLabel,exactMatch.prefLabel"
+SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=50&_search={}&_page=0"
+SYNONYM_ENDPOINT_URL = "http://lda.data.parliament.uk/terms.json?_view=Thesaurus&_pageSize=50&_search=%22{}%22&_page=0&_properties=prefLabel,exactMatch.prefLabel"
 
 
 def get_synonyms(word):
@@ -59,7 +59,7 @@ class Output:
 class Topic:
 
     """
-    Holds the topic as string, and an array with all MPs talking about this topic
+    Holds the topic as string and an array of all MPs talking about this topic
     String name
     Int mentions
     MP mps
@@ -145,11 +145,19 @@ def writeTREE(output):
         f.write(printChildren(topic_path, topic.name, tree_path))
         for mp in topic.mps:
             mp_path = topic_path + "/" + mp.name
-            f.write(printChildren(mp_path, mp.name, topic_path))
+            try:
+                f.write(printChildren(mp_path, mp.name, topic_path))
+            except Exception:
+                continue
+
             if mp.mentions.get(topic.name):
                 for mention in mp.mentions.get(topic.name):
                     mention_path = mp_path + "/" + mention
-                    f.write(printChildren(mention_path, mention, mp_path, "1"))
+                    try:
+                        f.write(
+                            printChildren(mention_path, mention, mp_path, "1"))
+                    except Exception:
+                        pass
     f.close()
 
 
@@ -161,9 +169,11 @@ def search_questions(word):
     Returns a list of articles for the given word.
     """
 
-    search_corpus = get_synonyms(word)
+    search_corpus = get_synonyms(word)[:10]
 
     for item in search_corpus:
+        print("{} - processing {}/{}".format(word,
+                                             search_corpus.index(item) + 1, len(search_corpus)))
         full_query = SEARCH_ENDPOINT_URL.format(item)
         response = requests.get(full_query)
 
