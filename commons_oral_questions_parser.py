@@ -128,6 +128,23 @@ def createJSON(out):
         print(json.dump(out, outfile, indent="\t",default=jdefault))
 
 
+def printChildren(child, parent, numOfChildren="null"):
+    s = "[\"" + child + "\", " + "\"" + parent + "\"," + numOfChildren + "]\n"
+    return s
+
+def writeTREE(output):
+    f = open("o.txt" , "w+")
+    f.write("[\"tree\", null, 0]")
+    for topic in output.topics:
+        f.write(printChildren(topic.name, "tree"))
+        for mp in topic.mps:
+            f.write(printChildren(mp.name, topic.name))
+            if mp.mentions.get(topic.name):
+                for mention in mp.mentions.get(topic.name):
+                    f.write(printChildren(mention, mp.name, "1"))
+    f.close()
+
+
 finalDATA = Output()
 
 
@@ -196,4 +213,5 @@ createJSON(output)
 
 search_all()
 createJSON(finalDATA)
+writeTREE(finalDATA)
 #print(finalDATA)
