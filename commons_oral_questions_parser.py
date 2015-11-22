@@ -124,7 +124,8 @@ def createJSON(out):
     """
     takes Output out and returns a JSON file 
     """
-    print(json.dumps(out, default=jdefault))
+    with open('data.json', 'w') as outfile:
+        print(json.dumps(out, outfile, default=jdefault))
 
 
 finalDATA = Output()
