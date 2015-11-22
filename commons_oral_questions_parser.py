@@ -125,7 +125,7 @@ def createJSON(out):
     takes Output out and returns a JSON file 
     """
     with open('data.json', 'w') as outfile:
-        print(json.dumps(out, outfile, default=jdefault))
+        print(json.dump(out, outfile, indent="\t",default=jdefault))
 
 
 finalDATA = Output()
@@ -196,4 +196,4 @@ createJSON(output)
 
 search_all()
 createJSON(finalDATA)
-print(finalDATA)
+#print(finalDATA)
