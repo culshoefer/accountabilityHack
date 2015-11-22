@@ -126,12 +126,11 @@ def createJSON(out):
     takes Output out and returns a JSON file 
     """
     with open('data.json', 'w') as outfile:
-        print(json.dump(out, outfile, indent="\t",default=jdefault))
+        json.dump(out, outfile, indent="\t",default=jdefault)
 
 
 def printChildren(path, child, parent, numOfChildren="null"):
-    s = "[" + "{\"v\": " + "\"" + path + "\", " + "\"f\": " + "\"" + child
-    +"\"}, "  + parent + "\"," + numOfChildren + "],\n"
+    s = "[" + "{\"v\": " + "\"" + str(path) + "\", " + "\"f\": " + "\"" + str(child) + "\"}, "  + "\"" + str(parent) + "\"," + str(numOfChildren) + "],\n"
 
     return s
 
@@ -149,7 +148,7 @@ def writeTREE(output):
             if mp.mentions.get(topic.name):
                 for mention in mp.mentions.get(topic.name):
                     path += "/" + mention
-                    f.write(printChildren(path, s, mp.name, "1"))
+                    f.write(printChildren(path, mention, mp.name, "1"))
     f.close()
 
 
