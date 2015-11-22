@@ -1,5 +1,6 @@
 import json
 import requests
+import uuid
 
 # TODO: change for >500 results
 SEARCH_ENDPOINT_URL = "http://lda.data.parliament.uk/commonsoralquestions.json?_view=Commons+Oral+Questions&_pageSize=10&_search={}&_page=0"
@@ -141,7 +142,8 @@ def writeTREE(output):
             f.write(printChildren(mp.name, topic.name))
             if mp.mentions.get(topic.name):
                 for mention in mp.mentions.get(topic.name):
-                    f.write(printChildren(mention, mp.name, "1"))
+                    s = str(uuid.uuid4()) + "#" + mention
+                    f.write(printChildren(s, mp.name, "1"))
     f.close()
 
 
