@@ -129,21 +129,27 @@ def createJSON(out):
         print(json.dump(out, outfile, indent="\t",default=jdefault))
 
 
-def printChildren(child, parent, numOfChildren="null"):
-    s = "[\"" + child + "\", " + "\"" + parent + "\"," + numOfChildren + "],\n"
+def printChildren(path, child, parent, numOfChildren="null"):
+    s = "[" + "{\"v\": " + "\"" + path + "\", " + "\"f\": " + "\"" + child
+    +"\"}, "  + parent + "\"," + numOfChildren + "],\n"
+
     return s
 
 def writeTREE(output):
     f = open("o.txt" , "w+")
     f.write("[\"tree\", null, 0],\n")
+
+    path = "tree"
     for topic in output.topics:
-        f.write(printChildren(topic.name, "tree"))
+        path += "/" + topic.name
+        f.write(printChildren(path, topic.name, "tree"))
         for mp in topic.mps:
-            f.write(printChildren(mp.name, topic.name))
+            path += "/" + mp.name
+            f.write(printChildren(path, mp.name, topic.name))
             if mp.mentions.get(topic.name):
                 for mention in mp.mentions.get(topic.name):
-                    s = str(uuid.uuid4()) + "#" + mention
-                    f.write(printChildren(s, mp.name, "1"))
+                    path += "/" + mention
+                    f.write(printChildren(path, s, mp.name, "1"))
     f.close()
 
 
