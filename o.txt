@@ -1,230 +1,230 @@
-["tree", null, 0]["tax", "tree",null]
-["Cadbury, Ruth", "tax",null]
-["2015-07-13T23:00:07.273#What recent discussions he has had with Ministers of the Scottish Government on progress on implementing the Scottish rate of income tax.", "Cadbury, Ruth",1]
-["Malhotra, Seema", "tax",null]
-["2015-07-13T23:00:07.273#What recent discussions he has had with Ministers of the Scottish Government on progress on implementing the Scottish rate of income tax.", "Malhotra, Seema",1]
-["Abrahams, Debbie", "tax",null]
-["2015-07-13T23:00:07.273#What discussions he has had with the Chancellor of the Exchequer on the effect on claimants in Scotland of changes in entitlement to working tax credits and child tax credits.", "Abrahams, Debbie",1]
-["Davies, David T. C.", "tax",null]
-["2015-06-10T18:17:21#What steps he is taking to reduce the tax gap.", "Davies, David T. C.",1]
-["Jones, Helen", "tax",null]
-["2015-06-10T18:17:21#What plans he has to change tax credit entitlements over the next five years.", "Jones, Helen",1]
-["Brennan, Kevin", "tax",null]
-["2015-06-02T19:47:27.350#What assessment he has made of the potential effect of full fiscal autonomy for Scotland on the level of tax receipts in Scotland.", "Brennan, Kevin",1]
-["Morris, David", "tax",null]
-["2015-05-28T17:48:58.927#What steps her Department has taken to increase the capacity of developing countries to collect tax.", "Morris, David",1]
-["Lazarowicz, Mark", "tax",null]
-["2015-03-17T19:56:59.693#What steps her Department is taking to help developing countries to tackle tax avoidance and evasion.", "Lazarowicz, Mark",1]
-["McCarthy, Kerry", "tax",null]
-["2015-03-17T19:56:59.693#What steps her Department is taking to help developing countries to tackle tax avoidance and evasion.", "McCarthy, Kerry",1]
-["Doyle, Gemma", "tax",null]
-["2015-03-17T19:56:59.693#What steps her Department is taking to help developing countries to tackle tax avoidance and evasion.", "Doyle, Gemma",1]
-["Cadbury, Ruth", "tax",null]
-["Malhotra, Seema", "tax",null]
-["Abrahams, Debbie", "tax",null]
-["McDonald, Stewart", "tax",null]
-["Day, Martyn", "tax",null]
-["Milling, Amanda", "tax",null]
-["Allen, Mr Graham", "tax",null]
-["Hanson, Mr David", "tax",null]
-["Whately, Helen", "tax",null]
-["Rayner, Angela", "tax",null]
-["Cadbury, Ruth", "tax",null]
-["Malhotra, Seema", "tax",null]
-["Abrahams, Debbie", "tax",null]
-["McDonald, Stewart", "tax",null]
-["Day, Martyn", "tax",null]
-["Milling, Amanda", "tax",null]
-["Allen, Mr Graham", "tax",null]
-["Hanson, Mr David", "tax",null]
-["Whately, Helen", "tax",null]
-["Rayner, Angela", "tax",null]
-["fee", "tree",null]
-["McCartney, Karl", "fee",null]
-["2014-10-15T18:48:14.217#What steps he is taking to review the rules relating to non-payment of the TV licence fee.", "McCartney, Karl",1]
-["Leech, Mr John", "fee",null]
-["2014-03-12T17:41:08.877#What assessment she has made of the potential financial effect on the BBC of decriminalising non-payment of the licence fee.", "Leech, Mr John",1]
-["Day, Martyn", "fee",null]
-["Sheerman, Mr Barry", "fee",null]
-["Esterson, Bill", "fee",null]
-["Mak, Mr Alan", "fee",null]
-["Bellingham, Mr Henry", "fee",null]
-["Fernandes, Suella", "fee",null]
-["Allen, Heidi", "fee",null]
-["Burrowes, Mr David", "fee",null]
-["Bruce, Fiona", "fee",null]
-["Allan, Lucy", "fee",null]
-["Tomlinson, Michael", "fee",null]
-["Fovargue, Yvonne", "fee",null]
-["Flynn, Paul", "fee",null]
-["Walker, Mr Robin", "fee",null]
-["Stephens, Chris", "fee",null]
-["Evans, Mr Nigel", "fee",null]
-["Atkins, Victoria", "fee",null]
-["Bridgen, Andrew", "fee",null]
-["Cadbury, Ruth", "fee",null]
-["Adams, Nigel", "fee",null]
-["afghanistan", "tree",null]
-["Bayley, Sir Hugh", "afghanistan",null]
-["2015-01-08T21:21:25.150#How many UK military personnel are currently serving in Afghanistan.", "Bayley, Sir Hugh",1]
-["Long, Naomi", "afghanistan",null]
-["2014-11-26T18:52:59.527#What assessment he has made of the role played by women in peace-building in (a) Afghanistan and (b) other countries entering a post-conflict period.", "Long, Naomi",1]
-["Flynn, Paul", "afghanistan",null]
-["2014-11-18T22:59:35.040#What recent progress has been made on the armed forces drawdown from Afghanistan.", "Flynn, Paul",1]
-["Lewis, Dr Julian", "afghanistan",null]
-["2014-10-17T15:48:56.457#What recent assessment he has made of the effectiveness of the UK's contribution to the future stability of Afghanistan.", "Lewis, Dr Julian",1]
-["McCabe, Steve", "afghanistan",null]
-["2014-09-01T23:41:43.840#For what reasons she decided to end her Department's role in the Bost Agricultural Business Park project in Afghanistan in 2012.", "McCabe, Steve",1]
-["Hollobone, Mr Philip", "afghanistan",null]
-["2014-07-10T18:40:10.487#What policies he is pursuing to prevent political disintegration in Afghanistan similar to that occurring in Iraq after NATO forces leave.", "Hollobone, Mr Philip",1]
-["Chishti, Rehman", "afghanistan",null]
-["2014-05-06T23:03:04.630#What recent assessment he has made of the security situation in Afghanistan and its effect on participation in the Afghan presidential election.", "Chishti, Rehman",1]
-["Turner, Karl", "afghanistan",null]
-["2014-04-07T21:55:38.697#What assessment she has made of the level of women's participation in the upcoming Afghanistan presidential election.", "Turner, Karl",1]
-["Pincher, Christopher", "afghanistan",null]
-["2014-03-13T18:24:09.790#What discussions he has had with Afghan government ministers on a post-2014 NATO contribution to security in Afghanistan.", "Pincher, Christopher",1]
-["Lewis, Dr Julian", "afghanistan",null]
-["2014-03-13T18:24:09.790#What arrangements have been made for the withdrawal of UK personnel and heavy equipment from Afghanistan through Russian territory; and if he will make a statement.", "Lewis, Dr Julian",1]
-["Bayley, Sir Hugh", "afghanistan",null]
-["Long, Naomi", "afghanistan",null]
-["Flynn, Paul", "afghanistan",null]
-["Lewis, Dr Julian", "afghanistan",null]
-["McCabe, Steve", "afghanistan",null]
-["Hollobone, Mr Philip", "afghanistan",null]
-["Chishti, Rehman", "afghanistan",null]
-["Turner, Karl", "afghanistan",null]
-["Pincher, Christopher", "afghanistan",null]
-["Lewis, Dr Julian", "afghanistan",null]
-["Stephens, Chris", "afghanistan",null]
-["Cooper, Rosie", "afghanistan",null]
-["Morris, David", "afghanistan",null]
-["McDonald, Andy", "afghanistan",null]
-["Phillips, Stephen", "afghanistan",null]
-["West, Catherine", "afghanistan",null]
-["Shannon, Jim", "afghanistan",null]
-["Edwards, Jonathan", "afghanistan",null]
-["Rosindell, Andrew", "afghanistan",null]
-["Metcalfe, Stephen", "afghanistan",null]
-["legal", "tree",null]
-["Rayner, Angela", "legal",null]
-["2015-06-29T20:21:40.283#What discussions she has had with the Secretary of State for Justice on reviewing the eligibility test that victims of domestic violence must pass to obtain legal aid.", "Rayner, Angela",1]
-["Bain, Mr William", "legal",null]
-["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Bain, Mr William",1]
-["Corbyn, Jeremy", "legal",null]
-["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Corbyn, Jeremy",1]
-["Hanson, Mr David", "legal",null]
-["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Hanson, Mr David",1]
-["Alexander, Heidi", "legal",null]
-["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Alexander, Heidi",1]
-["Murray, Sheryll", "legal",null]
-["2015-03-20T16:05:19.027#What steps he has taken to promote pro bono work amongst members of the legal profession.", "Murray, Sheryll",1]
-["Mowat, David", "legal",null]
-["2015-03-16T19:39:38.140#What progress he has made on reducing the legal aid budget.", "Mowat, David",1]
-["Bellingham, Mr Henry", "legal",null]
-["2015-03-16T19:39:38.140#When he next plans to meet representatives from (a) the Law Society and (b) the Bar Council to discuss legal aid.", "Bellingham, Mr Henry",1]
-["Mactaggart, Fiona", "legal",null]
-["2015-03-16T19:39:38.140#How many women who have been victims of domestic violence applied for legal aid in proceedings relating to their children in the latest period for which figures are available; and if he will make a statement.", "Mactaggart, Fiona",1]
-["Sheerman, Mr Barry", "legal",null]
-["2015-03-16T19:39:38.140#What steps he is taking to ensure that the legal system does not discriminate against families on low incomes.", "Sheerman, Mr Barry",1]
-["EU", "tree",null]
-["Carmichael, Neil", "EU",null]
-["2015-07-13T23:00:07.273#What assessment he has made of the value to Scotland of the UK remaining in the EU.", "Carmichael, Neil",1]
-["Grady, Patrick", "EU",null]
-["2015-06-26T15:09:43.847#What assessment he has made of the effect of the inclusion of EU citizens in the franchise for elections to the Greater London Assembly and the Mayor of London on voter engagement; and if he will make a statement.", "Grady, Patrick",1]
-["Brown, Mr Nicholas", "EU",null]
-["2015-06-17T17:15:34.100#What assessment her Department has made of the potential effect of the introduction of a farmed land support scheme in the event of the UK leaving the EU.", "Brown, Mr Nicholas",1]
-["Thomas, Derek", "EU",null]
-["2015-06-16T18:55:39.230#If the Electoral Commission will commission a lay-person's guide to the costs and benefits of UK membership of the EU before the EU referendum.", "Thomas, Derek",1]
-["Burrowes, Mr David", "EU",null]
-["2015-06-16T18:55:39.230#What assessment the Electoral Commission has made of the proposals in the EU Referendum Bill relating to disapplication of purdah.", "Burrowes, Mr David",1]
-["Thewliss, Alison", "EU",null]
-["2015-06-17T17:15:34.100#What discussions her Department has had with Glasgow City Council on projections for Glasgow's air quality and compliance with EU air quality regulations.", "Thewliss, Alison",1]
-["Davies, Philip", "EU",null]
-["2015-06-16T18:55:39.230#What assessment the Electoral Commission has made of the neutrality of the proposed EU referendum question.", "Davies, Philip",1]
-["Hanson, Mr David", "EU",null]
-["2015-06-10T18:17:21#If he will make representations to the Bank of England on the publication prior to the EU referendum of its assessment of the effect on the UK economy of the UK leaving the EU.", "Hanson, Mr David",1]
-["Pursglove, Tom", "EU",null]
-["2015-06-15T18:31:37.090#What discussions he has had in Wales on the implications for Wales of a referendum on the UK's membership of the EU.", "Pursglove, Tom",1]
-["Blunt, Crispin", "EU",null]
-["2015-06-03T17:06:42.623#What assessment he has made of public support for holding a referendum on the UK's membership of the EU.", "Blunt, Crispin",1]
-["Zeichner, Daniel", "EU",null]
-["Blackford, Ian", "EU",null]
-["Rees, Christina", "EU",null]
-["Thomas-Symonds, Nick", "EU",null]
-["West, Catherine", "EU",null]
-["Mak, Mr Alan", "EU",null]
-["Fernandes, Suella", "EU",null]
-["West, Catherine", "EU",null]
-["Allen, Heidi", "EU",null]
-["Blackman, Kirsty", "EU",null]
-["Carmichael, Neil", "EU",null]
-["Zeichner, Daniel", "EU",null]
-["Blackford, Ian", "EU",null]
-["Rees, Christina", "EU",null]
-["Thomas-Symonds, Nick", "EU",null]
-["West, Catherine", "EU",null]
-["Grady, Patrick", "EU",null]
-["Mak, Mr Alan", "EU",null]
-["Fernandes, Suella", "EU",null]
-["West, Catherine", "EU",null]
-["Zeichner, Daniel", "EU",null]
-["Blackford, Ian", "EU",null]
-["Rees, Christina", "EU",null]
-["Morris, David", "EU",null]
-["Thomas-Symonds, Nick", "EU",null]
-["West, Catherine", "EU",null]
-["Mak, Mr Alan", "EU",null]
-["Fernandes, Suella", "EU",null]
-["West, Catherine", "EU",null]
-["Allen, Heidi", "EU",null]
-["Allen, Mr Graham", "EU",null]
-["Pritchard, Mark", "EU",null]
-["Smith, Nick", "EU",null]
-["Stevens, Jo", "EU",null]
-["Maskell, Rachael", "EU",null]
-["Bone, Mr Peter", "EU",null]
-["Vaz, Keith", "EU",null]
-["Bayley, Sir Hugh", "EU",null]
-["Luff, Sir Peter", "EU",null]
-["Offord, Dr Matthew", "EU",null]
-["Allen, Mr Graham", "EU",null]
-["Pritchard, Mark", "EU",null]
-["Smith, Nick", "EU",null]
-["Stevens, Jo", "EU",null]
-["Maskell, Rachael", "EU",null]
-["Bone, Mr Peter", "EU",null]
-["Vaz, Keith", "EU",null]
-["Bayley, Sir Hugh", "EU",null]
-["Luff, Sir Peter", "EU",null]
-["Offord, Dr Matthew", "EU",null]
-["infrastructure", "tree",null]
-["Cooper, Rosie", "infrastructure",null]
-["2015-06-26T14:58:06.717#What steps his Department is taking to ensure that localism is prioritised in the decision-making process for nationally significant infrastructure projects.", "Cooper, Rosie",1]
-["Churchill, Jo", "infrastructure",null]
-["2015-06-10T18:17:21#What recent discussions he has had with local authorities and local enterprise partnerships on delivery of transport infrastructure projects.", "Churchill, Jo",1]
-["Johnson, Diana", "infrastructure",null]
-["2015-03-25T20:53:43.473#What recent representations he has received from businesses on the importance of infrastructure development to business growth.", "Johnson, Diana",1]
-["Lopresti, Jack", "infrastructure",null]
-["2015-03-04T22:22:11.073#What steps he is taking to invest in infrastructure.", "Lopresti, Jack",1]
-["Johnson, Diana", "infrastructure",null]
-["2015-02-11T21:38:48.303#What recent representations he has received from businesses on the effect of infrastructure on business growth.", "Johnson, Diana",1]
-["Pincher, Christopher", "infrastructure",null]
-["2015-01-21T19:25:58.240#What plans he has to introduce new rolling stock and infrastructure on the railway.", "Pincher, Christopher",1]
-["Andrew, Stuart", "infrastructure",null]
-["2015-01-13T22:34:06.283#What assessment he has made of trends in the level of infrastructure investment in Wales since 2010.", "Andrew, Stuart",1]
-["Johnson, Diana", "infrastructure",null]
-["2015-01-07T20:12:59.997#What recent representations he has received from business on the effect of infrastructure on business growth.", "Johnson, Diana",1]
-["McCartney, Jason", "infrastructure",null]
-["2014-12-08T23:05:42.430#What steps he is taking to encourage investment in infrastructure in West Yorkshire.", "McCartney, Jason",1]
-["Menzies, Mark", "infrastructure",null]
-["2014-12-08T23:05:42.430#What fiscal steps he is taking to encourage investment in infrastructure.", "Menzies, Mark",1]
-["Hanson, Mr David", "infrastructure",null]
-["Rayner, Angela", "infrastructure",null]
-["Chope, Mr Christopher", "infrastructure",null]
-["Garnier, Mark", "infrastructure",null]
-["Glass, Pat", "infrastructure",null]
-["Pennycook, Matthew", "infrastructure",null]
-["Allen, Heidi", "infrastructure",null]
-["Cooper, Rosie", "infrastructure",null]
-["Lefroy, Jeremy", "infrastructure",null]
-["Fabricant, Michael", "infrastructure",null]
+["tree", null, 0],["tax", "tree",null],
+["Cadbury, Ruth", "tax",null],
+["2015-07-13T23:00:07.273#What recent discussions he has had with Ministers of the Scottish Government on progress on implementing the Scottish rate of income tax.", "Cadbury, Ruth",1],
+["Malhotra, Seema", "tax",null],
+["2015-07-13T23:00:07.273#What recent discussions he has had with Ministers of the Scottish Government on progress on implementing the Scottish rate of income tax.", "Malhotra, Seema",1],
+["Abrahams, Debbie", "tax",null],
+["2015-07-13T23:00:07.273#What discussions he has had with the Chancellor of the Exchequer on the effect on claimants in Scotland of changes in entitlement to working tax credits and child tax credits.", "Abrahams, Debbie",1],
+["Davies, David T. C.", "tax",null],
+["2015-06-10T18:17:21#What steps he is taking to reduce the tax gap.", "Davies, David T. C.",1],
+["Jones, Helen", "tax",null],
+["2015-06-10T18:17:21#What plans he has to change tax credit entitlements over the next five years.", "Jones, Helen",1],
+["Brennan, Kevin", "tax",null],
+["2015-06-02T19:47:27.350#What assessment he has made of the potential effect of full fiscal autonomy for Scotland on the level of tax receipts in Scotland.", "Brennan, Kevin",1],
+["Morris, David", "tax",null],
+["2015-05-28T17:48:58.927#What steps her Department has taken to increase the capacity of developing countries to collect tax.", "Morris, David",1],
+["Lazarowicz, Mark", "tax",null],
+["2015-03-17T19:56:59.693#What steps her Department is taking to help developing countries to tackle tax avoidance and evasion.", "Lazarowicz, Mark",1],
+["McCarthy, Kerry", "tax",null],
+["2015-03-17T19:56:59.693#What steps her Department is taking to help developing countries to tackle tax avoidance and evasion.", "McCarthy, Kerry",1],
+["Doyle, Gemma", "tax",null],
+["2015-03-17T19:56:59.693#What steps her Department is taking to help developing countries to tackle tax avoidance and evasion.", "Doyle, Gemma",1],
+["Cadbury, Ruth", "tax",null],
+["Malhotra, Seema", "tax",null],
+["Abrahams, Debbie", "tax",null],
+["McDonald, Stewart", "tax",null],
+["Day, Martyn", "tax",null],
+["Milling, Amanda", "tax",null],
+["Allen, Mr Graham", "tax",null],
+["Hanson, Mr David", "tax",null],
+["Whately, Helen", "tax",null],
+["Rayner, Angela", "tax",null],
+["Cadbury, Ruth", "tax",null],
+["Malhotra, Seema", "tax",null],
+["Abrahams, Debbie", "tax",null],
+["McDonald, Stewart", "tax",null],
+["Day, Martyn", "tax",null],
+["Milling, Amanda", "tax",null],
+["Allen, Mr Graham", "tax",null],
+["Hanson, Mr David", "tax",null],
+["Whately, Helen", "tax",null],
+["Rayner, Angela", "tax",null],
+["fee", "tree",null],
+["McCartney, Karl", "fee",null],
+["2014-10-15T18:48:14.217#What steps he is taking to review the rules relating to non-payment of the TV licence fee.", "McCartney, Karl",1],
+["Leech, Mr John", "fee",null],
+["2014-03-12T17:41:08.877#What assessment she has made of the potential financial effect on the BBC of decriminalising non-payment of the licence fee.", "Leech, Mr John",1],
+["Day, Martyn", "fee",null],
+["Sheerman, Mr Barry", "fee",null],
+["Esterson, Bill", "fee",null],
+["Mak, Mr Alan", "fee",null],
+["Bellingham, Mr Henry", "fee",null],
+["Fernandes, Suella", "fee",null],
+["Allen, Heidi", "fee",null],
+["Burrowes, Mr David", "fee",null],
+["Bruce, Fiona", "fee",null],
+["Allan, Lucy", "fee",null],
+["Tomlinson, Michael", "fee",null],
+["Fovargue, Yvonne", "fee",null],
+["Flynn, Paul", "fee",null],
+["Walker, Mr Robin", "fee",null],
+["Stephens, Chris", "fee",null],
+["Evans, Mr Nigel", "fee",null],
+["Atkins, Victoria", "fee",null],
+["Bridgen, Andrew", "fee",null],
+["Cadbury, Ruth", "fee",null],
+["Adams, Nigel", "fee",null],
+["afghanistan", "tree",null],
+["Bayley, Sir Hugh", "afghanistan",null],
+["2015-01-08T21:21:25.150#How many UK military personnel are currently serving in Afghanistan.", "Bayley, Sir Hugh",1],
+["Long, Naomi", "afghanistan",null],
+["2014-11-26T18:52:59.527#What assessment he has made of the role played by women in peace-building in (a) Afghanistan and (b) other countries entering a post-conflict period.", "Long, Naomi",1],
+["Flynn, Paul", "afghanistan",null],
+["2014-11-18T22:59:35.040#What recent progress has been made on the armed forces drawdown from Afghanistan.", "Flynn, Paul",1],
+["Lewis, Dr Julian", "afghanistan",null],
+["2014-10-17T15:48:56.457#What recent assessment he has made of the effectiveness of the UK's contribution to the future stability of Afghanistan.", "Lewis, Dr Julian",1],
+["McCabe, Steve", "afghanistan",null],
+["2014-09-01T23:41:43.840#For what reasons she decided to end her Department's role in the Bost Agricultural Business Park project in Afghanistan in 2012.", "McCabe, Steve",1],
+["Hollobone, Mr Philip", "afghanistan",null],
+["2014-07-10T18:40:10.487#What policies he is pursuing to prevent political disintegration in Afghanistan similar to that occurring in Iraq after NATO forces leave.", "Hollobone, Mr Philip",1],
+["Chishti, Rehman", "afghanistan",null],
+["2014-05-06T23:03:04.630#What recent assessment he has made of the security situation in Afghanistan and its effect on participation in the Afghan presidential election.", "Chishti, Rehman",1],
+["Turner, Karl", "afghanistan",null],
+["2014-04-07T21:55:38.697#What assessment she has made of the level of women's participation in the upcoming Afghanistan presidential election.", "Turner, Karl",1],
+["Pincher, Christopher", "afghanistan",null],
+["2014-03-13T18:24:09.790#What discussions he has had with Afghan government ministers on a post-2014 NATO contribution to security in Afghanistan.", "Pincher, Christopher",1],
+["Lewis, Dr Julian", "afghanistan",null],
+["2014-03-13T18:24:09.790#What arrangements have been made for the withdrawal of UK personnel and heavy equipment from Afghanistan through Russian territory; and if he will make a statement.", "Lewis, Dr Julian",1],
+["Bayley, Sir Hugh", "afghanistan",null],
+["Long, Naomi", "afghanistan",null],
+["Flynn, Paul", "afghanistan",null],
+["Lewis, Dr Julian", "afghanistan",null],
+["McCabe, Steve", "afghanistan",null],
+["Hollobone, Mr Philip", "afghanistan",null],
+["Chishti, Rehman", "afghanistan",null],
+["Turner, Karl", "afghanistan",null],
+["Pincher, Christopher", "afghanistan",null],
+["Lewis, Dr Julian", "afghanistan",null],
+["Stephens, Chris", "afghanistan",null],
+["Cooper, Rosie", "afghanistan",null],
+["Morris, David", "afghanistan",null],
+["McDonald, Andy", "afghanistan",null],
+["Phillips, Stephen", "afghanistan",null],
+["West, Catherine", "afghanistan",null],
+["Shannon, Jim", "afghanistan",null],
+["Edwards, Jonathan", "afghanistan",null],
+["Rosindell, Andrew", "afghanistan",null],
+["Metcalfe, Stephen", "afghanistan",null],
+["legal", "tree",null],
+["Rayner, Angela", "legal",null],
+["2015-06-29T20:21:40.283#What discussions she has had with the Secretary of State for Justice on reviewing the eligibility test that victims of domestic violence must pass to obtain legal aid.", "Rayner, Angela",1],
+["Bain, Mr William", "legal",null],
+["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Bain, Mr William",1],
+["Corbyn, Jeremy", "legal",null],
+["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Corbyn, Jeremy",1],
+["Hanson, Mr David", "legal",null],
+["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Hanson, Mr David",1],
+["Alexander, Heidi", "legal",null],
+["2015-03-20T16:05:19.027#What recent discussions he has had with cabinet colleagues on implementation of the UK's domestic and international legal obligations on human rights.", "Alexander, Heidi",1],
+["Murray, Sheryll", "legal",null],
+["2015-03-20T16:05:19.027#What steps he has taken to promote pro bono work amongst members of the legal profession.", "Murray, Sheryll",1],
+["Mowat, David", "legal",null],
+["2015-03-16T19:39:38.140#What progress he has made on reducing the legal aid budget.", "Mowat, David",1],
+["Bellingham, Mr Henry", "legal",null],
+["2015-03-16T19:39:38.140#When he next plans to meet representatives from (a) the Law Society and (b) the Bar Council to discuss legal aid.", "Bellingham, Mr Henry",1],
+["Mactaggart, Fiona", "legal",null],
+["2015-03-16T19:39:38.140#How many women who have been victims of domestic violence applied for legal aid in proceedings relating to their children in the latest period for which figures are available; and if he will make a statement.", "Mactaggart, Fiona",1],
+["Sheerman, Mr Barry", "legal",null],
+["2015-03-16T19:39:38.140#What steps he is taking to ensure that the legal system does not discriminate against families on low incomes.", "Sheerman, Mr Barry",1],
+["EU", "tree",null],
+["Carmichael, Neil", "EU",null],
+["2015-07-13T23:00:07.273#What assessment he has made of the value to Scotland of the UK remaining in the EU.", "Carmichael, Neil",1],
+["Grady, Patrick", "EU",null],
+["2015-06-26T15:09:43.847#What assessment he has made of the effect of the inclusion of EU citizens in the franchise for elections to the Greater London Assembly and the Mayor of London on voter engagement; and if he will make a statement.", "Grady, Patrick",1],
+["Brown, Mr Nicholas", "EU",null],
+["2015-06-17T17:15:34.100#What assessment her Department has made of the potential effect of the introduction of a farmed land support scheme in the event of the UK leaving the EU.", "Brown, Mr Nicholas",1],
+["Thomas, Derek", "EU",null],
+["2015-06-16T18:55:39.230#If the Electoral Commission will commission a lay-person's guide to the costs and benefits of UK membership of the EU before the EU referendum.", "Thomas, Derek",1],
+["Burrowes, Mr David", "EU",null],
+["2015-06-16T18:55:39.230#What assessment the Electoral Commission has made of the proposals in the EU Referendum Bill relating to disapplication of purdah.", "Burrowes, Mr David",1],
+["Thewliss, Alison", "EU",null],
+["2015-06-17T17:15:34.100#What discussions her Department has had with Glasgow City Council on projections for Glasgow's air quality and compliance with EU air quality regulations.", "Thewliss, Alison",1],
+["Davies, Philip", "EU",null],
+["2015-06-16T18:55:39.230#What assessment the Electoral Commission has made of the neutrality of the proposed EU referendum question.", "Davies, Philip",1],
+["Hanson, Mr David", "EU",null],
+["2015-06-10T18:17:21#If he will make representations to the Bank of England on the publication prior to the EU referendum of its assessment of the effect on the UK economy of the UK leaving the EU.", "Hanson, Mr David",1],
+["Pursglove, Tom", "EU",null],
+["2015-06-15T18:31:37.090#What discussions he has had in Wales on the implications for Wales of a referendum on the UK's membership of the EU.", "Pursglove, Tom",1],
+["Blunt, Crispin", "EU",null],
+["2015-06-03T17:06:42.623#What assessment he has made of public support for holding a referendum on the UK's membership of the EU.", "Blunt, Crispin",1],
+["Zeichner, Daniel", "EU",null],
+["Blackford, Ian", "EU",null],
+["Rees, Christina", "EU",null],
+["Thomas-Symonds, Nick", "EU",null],
+["West, Catherine", "EU",null],
+["Mak, Mr Alan", "EU",null],
+["Fernandes, Suella", "EU",null],
+["West, Catherine", "EU",null],
+["Allen, Heidi", "EU",null],
+["Blackman, Kirsty", "EU",null],
+["Carmichael, Neil", "EU",null],
+["Zeichner, Daniel", "EU",null],
+["Blackford, Ian", "EU",null],
+["Rees, Christina", "EU",null],
+["Thomas-Symonds, Nick", "EU",null],
+["West, Catherine", "EU",null],
+["Grady, Patrick", "EU",null],
+["Mak, Mr Alan", "EU",null],
+["Fernandes, Suella", "EU",null],
+["West, Catherine", "EU",null],
+["Zeichner, Daniel", "EU",null],
+["Blackford, Ian", "EU",null],
+["Rees, Christina", "EU",null],
+["Morris, David", "EU",null],
+["Thomas-Symonds, Nick", "EU",null],
+["West, Catherine", "EU",null],
+["Mak, Mr Alan", "EU",null],
+["Fernandes, Suella", "EU",null],
+["West, Catherine", "EU",null],
+["Allen, Heidi", "EU",null],
+["Allen, Mr Graham", "EU",null],
+["Pritchard, Mark", "EU",null],
+["Smith, Nick", "EU",null],
+["Stevens, Jo", "EU",null],
+["Maskell, Rachael", "EU",null],
+["Bone, Mr Peter", "EU",null],
+["Vaz, Keith", "EU",null],
+["Bayley, Sir Hugh", "EU",null],
+["Luff, Sir Peter", "EU",null],
+["Offord, Dr Matthew", "EU",null],
+["Allen, Mr Graham", "EU",null],
+["Pritchard, Mark", "EU",null],
+["Smith, Nick", "EU",null],
+["Stevens, Jo", "EU",null],
+["Maskell, Rachael", "EU",null],
+["Bone, Mr Peter", "EU",null],
+["Vaz, Keith", "EU",null],
+["Bayley, Sir Hugh", "EU",null],
+["Luff, Sir Peter", "EU",null],
+["Offord, Dr Matthew", "EU",null],
+["infrastructure", "tree",null],
+["Cooper, Rosie", "infrastructure",null],
+["2015-06-26T14:58:06.717#What steps his Department is taking to ensure that localism is prioritised in the decision-making process for nationally significant infrastructure projects.", "Cooper, Rosie",1],
+["Churchill, Jo", "infrastructure",null],
+["2015-06-10T18:17:21#What recent discussions he has had with local authorities and local enterprise partnerships on delivery of transport infrastructure projects.", "Churchill, Jo",1],
+["Johnson, Diana", "infrastructure",null],
+["2015-03-25T20:53:43.473#What recent representations he has received from businesses on the importance of infrastructure development to business growth.", "Johnson, Diana",1],
+["Lopresti, Jack", "infrastructure",null],
+["2015-03-04T22:22:11.073#What steps he is taking to invest in infrastructure.", "Lopresti, Jack",1],
+["Johnson, Diana", "infrastructure",null],
+["2015-02-11T21:38:48.303#What recent representations he has received from businesses on the effect of infrastructure on business growth.", "Johnson, Diana",1],
+["Pincher, Christopher", "infrastructure",null],
+["2015-01-21T19:25:58.240#What plans he has to introduce new rolling stock and infrastructure on the railway.", "Pincher, Christopher",1],
+["Andrew, Stuart", "infrastructure",null],
+["2015-01-13T22:34:06.283#What assessment he has made of trends in the level of infrastructure investment in Wales since 2010.", "Andrew, Stuart",1],
+["Johnson, Diana", "infrastructure",null],
+["2015-01-07T20:12:59.997#What recent representations he has received from business on the effect of infrastructure on business growth.", "Johnson, Diana",1],
+["McCartney, Jason", "infrastructure",null],
+["2014-12-08T23:05:42.430#What steps he is taking to encourage investment in infrastructure in West Yorkshire.", "McCartney, Jason",1],
+["Menzies, Mark", "infrastructure",null],
+["2014-12-08T23:05:42.430#What fiscal steps he is taking to encourage investment in infrastructure.", "Menzies, Mark",1],
+["Hanson, Mr David", "infrastructure",null],
+["Rayner, Angela", "infrastructure",null],
+["Chope, Mr Christopher", "infrastructure",null],
+["Garnier, Mark", "infrastructure",null],
+["Glass, Pat", "infrastructure",null],
+["Pennycook, Matthew", "infrastructure",null],
+["Allen, Heidi", "infrastructure",null],
+["Cooper, Rosie", "infrastructure",null],
+["Lefroy, Jeremy", "infrastructure",null],
+["Fabricant, Michael", "infrastructure",null],

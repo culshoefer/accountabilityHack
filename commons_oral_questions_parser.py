@@ -129,12 +129,12 @@ def createJSON(out):
 
 
 def printChildren(child, parent, numOfChildren="null"):
-    s = "[\"" + child + "\", " + "\"" + parent + "\"," + numOfChildren + "]\n"
+    s = "[\"" + child + "\", " + "\"" + parent + "\"," + numOfChildren + "],\n"
     return s
 
 def writeTREE(output):
     f = open("o.txt" , "w+")
-    f.write("[\"tree\", null, 0]")
+    f.write("[\"tree\", null, 0],\n")
     for topic in output.topics:
         f.write(printChildren(topic.name, "tree"))
         for mp in topic.mps:
